@@ -20,7 +20,7 @@ export default async function handler(req, res) {
   // Get Shopify credentials from environment variables
   const SHOPIFY_STORE = process.env.SHOPIFY_STORE;
   const SHOPIFY_ACCESS_TOKEN = process.env.SHOPIFY_ACCESS_TOKEN;
-  const SHOPIFY_API_VERSION = process.env.SHOPIFY_API_VERSION || '2025-04';
+  const SHOPIFY_API_VERSION = process.env.SHOPIFY_API_VERSION || '2026-01';
 
   // Validate environment variables
   if (!SHOPIFY_STORE || !SHOPIFY_ACCESS_TOKEN) {
