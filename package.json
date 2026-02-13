@@ -1,0 +1,12 @@
+{
+  "name": "missha-shopify-api",
+  "version": "1.0.0",
+  "description": "Shopify order lookup API for Retell AI integration",
+  "main": "api/shopify-lookup.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "keywords": ["shopify", "retell", "ai", "api"],
+  "author": "Missha US",
+  "license": "MIT"
+}
